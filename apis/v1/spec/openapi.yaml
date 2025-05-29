@@ -1943,6 +1943,9 @@ components:
           description: 作成日時
           type: string
           format: date-time
+        resource_id:
+          description: リソースID
+          type: string
     handler.ApplicationComponent:
       type: object
       required:
